@@ -1,0 +1,358 @@
+$linkedinBlue1: #000000;
+$linkedinBlue2: #000000;
+$linkedinBlue3: #ffffff;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.login-wrapper {
+  background-color: white !important;
+  height: 0vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Center content vertically */
+  padding: 0 20px; /* Add some padding */
+  .login-wrapper-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto; /* Move the login form towards the center */
+  }
+  .heading {
+    font-family: system-ui;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.9);
+  }
+
+  .sub-heading {
+    margin-top: -20px;
+    font-family: system-ui;
+  }
+  .auth-inputs {
+    width: 100%; /* Adjust the width to fill the container */
+    max-width: 300px; /* Set a maximum width */
+  }
+
+  .login-btn {
+    max-width: 300px; /* Set a maximum width */
+    margin-top: 20px; /* Add some top margin */
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    background: rgb(255, 255, 255);    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add shadow */
+  
+  }
+  .login-btn:hover {
+    background-color: #dfdfdf; /* Darker green */
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Add more shadow */
+  }
+}
+
+
+.login-btn:hover {
+  background-color: $linkedinBlue3;
+}
+
+.auth-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  
+}
+
+.linkedinLogo {
+  width: 80px;
+}
+
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 1.5em;
+  opacity: 0.5;
+  &:before {
+    content: "";
+    // use the linear-gradient for the fading effect
+    // use a solid background color for a solid bar
+    background: linear-gradient(to right, transparent, #818078, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+  }
+  &:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+
+    padding: 0 0.5em;
+    line-height: 1.5em;
+    // this is really the only tricky part, you need to specify the background color of the container element...
+    color: #818078;
+    background-color: #fcfcfa;
+  }
+}
+
+.google-btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .google-btn {
+    width: 300px !important;
+  }
+
+  .go-to-signup {
+    font-size: 18px;
+  }
+
+  .join-now {
+    color: $linkedinBlue1;
+    font-family: system-ui;
+    cursor: pointer;
+    font-size: 18px;
+  }
+}
+/* Right side content */
+.advertisement {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.advertisement h2 {
+  color: $linkedinBlue1;
+  font-size: 24px;
+}
+
+.advertisement p {
+  font-size: 16px;
+  color: #333;
+}
+  .right-side {
+    width: 20%; /* Adjust width as needed */
+    height: 900px;
+    padding: 20px;
+    background-color: #f0f0f0; /* Add background color */
+    border-left: 1px solid #ccc; /* Add border for separation */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    .advertisement {
+      margin-bottom: 20px;
+      text-align: center;
+  
+      h2 {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+  
+      p {
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 10px;
+      }
+  
+      .btn {
+        padding: 10px 20px;
+        background-color: white;
+        color: #000000;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add shadow */
+  
+        &:hover {
+          background-color: #dbd9d9;
+          color: #000000;
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Add more shadow */
+        }
+      }
+    }
+  
+    .suggestions, .trending-topics {
+      text-align: left;
+  
+      h2 {
+        color: #333;
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+  
+      ul {
+        list-style-type: none;
+        padding: 0;
+  
+        li {
+          margin-bottom: 15px;
+          font-size: 16px;
+          color: #ffffff;
+  
+          &:hover {
+            cursor: pointer;
+          }
+  
+          .user-card {
+            display: flex;
+            align-items: center;
+  
+            img {
+              width: 40px;
+              height: 40px;
+              border-radius: 50%;
+              margin-right: 10px;
+            }
+  
+            span {
+              flex-grow: 1;
+            }
+  
+            .add-friend-btn {
+              padding: 5px 10px;
+              background-color: #28a745;
+              color: #fff;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+              transition: background-color 0.3s ease;
+  
+              &:hover {
+                background-color: #218838;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+
+.box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+.box {
+  width: 300px;
+  padding: 20px;
+  height:300px;
+  border: 1px solid black;
+  background: $linkedinBlue3;
+  border-radius: 20px;
+}
+// .box:hover {
+//   background: #ebebeb;
+// }
+.box {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: #333;
+  transition: transform 0.3s ease;
+}
+.sub-heading {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.linkedinLogo {
+  position: fixed;
+  top: -50%;
+  right: 750px;
+  transform: translateY(-50%);
+  width: 300px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.box1 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+.box1 {
+  width: 210px;
+  padding: 20px;
+  height:300px;
+  border: 1px solid black;
+  background: $linkedinBlue3;
+  border-radius: 20px;
+}
+// .box:hover {
+//   background: #ebebeb;
+// }
+.box1 {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: #333;
+  transition: transform 0.3s ease;
+  width: 400px;
+  height: 400px;
+  max-width: 300px;
+}
+.common-input {
+  max-width: 300px; /* Set a maximum width */
+  margin-top: 20px; /* Add some top margin */
+  text-align: center;
+  text-decoration: none;
+  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add shadow */
+
+}
+.common-input:hover {
+  background-color: #dfdfdf; /* Darker green */
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Add more shadow */
+}

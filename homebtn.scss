@@ -1,0 +1,509 @@
+.right-side1 {
+    width: 20%; /* Adjust width as needed */
+    min-height: 600px; /* Use min-height instead of height */
+    padding: 20px;
+    background-color: #f0f0f0; /* Add background color */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Add more shadow */
+    position: fixed; /* Position the element relative to the viewport */
+    top: 200px; /* Position 20px below the top */
+    left: 30px; /* Position at the left */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    border-radius: 1px;
+  }
+  
+  .right-side1 .advertisement {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .right-side1 h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .right-side1 p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .right-side1 .btn {
+    padding: 10px 20px;
+    background-color: white;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add shadow */
+  
+    &:hover {
+      background-color: #dbd9d9;
+      color: #000000;
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Add more shadow */
+    }
+  }
+
+  // js and scss user friend box
+
+  .right-side2 {
+    width: 20%; /* Adjust width as needed */
+    min-height: 600px; /* Use min-height instead of height */
+    padding: 20px;
+    background-color: #f0f0f0; /* Add background color */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Add more shadow */
+    position: fixed; /* Position the element relative to the viewport */
+    top: 200px; /* Position 20px below the top */
+    left:1460px; /* Position at the left */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    border-radius: 1px;
+  }
+  
+  .right-side2 .advertisement {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .right-side2 h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .right-side2 p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .right-side2 .btn {
+    padding: 10px 20px;
+    background-color: white;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add shadow */
+  
+    &:hover {
+      background-color: #dbd9d9;
+      color: #000000;
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Add more shadow */
+    }
+  }
+
+
+  .square-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .square {
+    width: 350px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form input {
+    width: 330px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-btn {
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-btn:hover {
+    background-color: #166fe5;
+  }
+  
+  .forgot-password {
+    color: #1877f2;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  .create-account-btn {
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .create-account-btn:hover {
+    background-color: #1a6edd;
+  }
+  // .right-side1 {
+  //   width: 20%; /* Adjust width as needed */
+  //   min-height: 600px; /* Use min-height instead of height */
+  //   padding: 20px;
+  //   background-color: #f0f0f0; /* Add background color */
+  //   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Add more shadow */
+  //   position: fixed; /* Position the element relative to the viewport */
+  //   top: 200px; /* Position 200px below the top */
+  //   left: 30px; /* Position at the left */
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center; /* Center content vertically */
+  //   align-items: center; /* Center content horizontally */
+  //   border-radius: 1px;
+  //   transition: width 0.3s ease; /* Smooth transition for width change */
+  // }
+  
+  // .right-side1.expanded {
+  //   width: 30%; /* Expanded width */
+  // }
+  
+  // .right-side1 .advertisement {
+  //   margin-bottom: 20px;
+  //   text-align: center;
+  // }
+  
+  // .right-side1 h2 {
+  //   color: #333;
+  //   font-size: 24px;
+  //   margin-bottom: 10px;
+  // }
+  
+  // .right-side1 p {
+  //   font-size: 16px;
+  //   color: #666;
+  //   margin-bottom: 10px;
+  // }
+  
+  // .right-side1 .btn {
+  //   padding: 10px 20px;
+  //   background-color: white;
+  //   color: #000000;
+  //   border: none;
+  //   border-radius: 5px;
+  //   cursor: pointer;
+  //   transition: background-color 0.3s ease;
+  //   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add shadow */
+  // }
+  
+  // .right-side1 .btn:hover {
+  //   background-color: #dbd9d9;
+  //   color: #000000;
+  //   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Add more shadow */
+  // }
+  
+  // .toggle-bar {
+  //   position: absolute;
+  //   right: -10px;
+  //   top: 0;
+  //   bottom: 0;
+  //   width: 10px;
+  //   background-color: #ccc;
+  //   cursor: pointer;
+  //   transition: width 0.3s ease;
+  // }
+  
+  // .toggle-bar:hover {
+  //   width: 15px;
+  // }
+  
+  // /* Additional styles for right-side2 */
+  
+  // .right-side2 {
+  //   width: 20%; /* Adjust width as needed */
+  //   min-height: 600px; /* Use min-height instead of height */
+  //   padding: 20px;
+  //   background-color: #f0f0f0; /* Add background color */
+  //   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Add more shadow */
+  //   position: fixed; /* Position the element relative to the viewport */
+  //   top: 200px; /* Position 200px below the top */
+  //   left: 1460px; /* Position at the left */
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center; /* Center content vertically */
+  //   align-items: center; /* Center content horizontally */
+  //   border-radius: 1px;
+  // }
+  
+  // .right-side2 .advertisement {
+  //   margin-bottom: 20px;
+  //   text-align: center;
+  // }
+  
+  // .right-side2 h2 {
+  //   color: #333;
+  //   font-size: 24px;
+  //   margin-bottom: 10px;
+  // }
+  
+  // .right-side2 p {
+  //   font-size: 16px;
+  //   color: #666;
+  //   margin-bottom: 10px;
+  // }
+  
+  // .right-side2 .btn {
+  //   padding: 10px 20px;
+  //   background-color: white;
+  //   color: #000000;
+  //   border: none;
+  //   border-radius: 5px;
+  //   cursor: pointer;
+  //   transition: background-color 0.3s ease;
+  //   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add shadow */
+  // }
+  
+  // .right-side2 .btn:hover {
+  //   background-color: #dbd9d9;
+  //   color: #000000;
+  //   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Add more shadow */
+  // }
+  
+  // /* Styles for the square container and login form */
+  
+  // .square-container {
+  //   position: fixed;
+  //   top: 50%;
+  //   left: 50%;
+  //   transform: translate(-50%, -50%);
+  // }
+  
+  // .square {
+  //   width: 350px;
+  //   padding: 20px;
+  //   border: 1px solid #ccc;
+  //   background-color: #fff;
+  //   text-align: center;
+  // }
+  
+  // .login-form {
+  //   display: flex;
+  //   flex-direction: column;
+  // }
+  
+  // .login-form input {
+  //   width: 330px;
+  //   padding: 10px;
+  //   margin-bottom: 15px;
+  //   border: 1px solid #ccc;
+  //   border-radius: 5px;
+  // }
+  
+  // .login-btn {
+  //   background-color: #1877f2;
+  //   color: #fff;
+  //   border: none;
+  //   padding: 10px 20px;
+  //   border-radius: 5px;
+  //   cursor: pointer;
+  //   transition: background-color 0.3s;
+  // }
+  
+  // .login-btn:hover {
+  //   background-color: #166fe5;
+  // }
+  
+  // .forgot-password {
+  //   color: #1877f2;
+  //   cursor: pointer;
+  //   margin-bottom: 10px;
+  // }
+  
+  // .forgot-password:hover {
+  //   text-decoration: underline;
+  // }
+  
+  // .create-account-btn {
+  //   background-color: #1877f2;
+  //   color: #fff;
+  //   border: none;
+  //   padding: 10px 20px;
+  //   border-radius: 5px;
+  //   cursor: pointer;
+  //   transition: background-color 0.3s;
+  // }
+  
+  // .create-account-btn:hover {
+  //   background-color: #1a6edd;
+  // }
+  /* Default styles */
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: #333;
+  transition: transform 0.3s ease;
+}
+
+.view-rules-btn {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.view-rules-btn:hover {
+  background-color: #212221;
+}
+
+.view-rules-btn:active {
+  transform: scale(0.95);
+  background-color: #282928;
+}
+
+.rules-container {
+  margin-top: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.rules-container h3 {
+  margin-bottom: 10px;
+}
+
+.rules-container ol {
+  padding-left: 20px;
+}
+.square-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.square {
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 2 0 6px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  height: 600px;
+}
+.start-game-btn {
+  padding: 10px 20px;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2); /* Add shadow */
+  position: absolute;
+  top: 310px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 550px;
+  max-width: 500px;
+  height: 50px;
+  
+  &:hover {
+    background-color: #a2a3c9;
+    color: #ffffff;
+    box-shadow: 0 16px 16px 0 #a2a3c9; /* Add more shadow */
+  }
+}
+
+
+
+.game-container {
+  margin-top: 20px;
+}
+
+.game-area {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border: 3px solid none;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 10%;
+  box-shadow: 0 16px 16px 0 #a2a3c9; /* Add more shadow */
+}
+
+.player {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+}
+
+.obstacle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: green;
+}
+.locker-tag {
+  position: relative;
+  top: 23px;
+  left: -200px;
+}
+.locker-tag1 {
+  position: relative;
+  top: 23px;
+  left: 400px;
+}
+.close-btn {
+  padding: 10px 20px;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2); /* Add shadow */
+  position: relative;
+  top: -43px;
+  left: 300px;
+  width: 100px;
+  height: 40px;
+  transform: translateX(-50%);
+  &:hover {
+    background-color: #a2a3c9;
+    color: #ffffff;
+    box-shadow: 0 16px 16px 0 #a2a3c9; /* Add more shadow */
+  }
+}
